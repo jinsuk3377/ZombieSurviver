@@ -80,6 +80,7 @@ public class Gun : MonoBehaviour {
 
             //총을 쏠 준비가 되면
             Shot();
+            Debug.Log("U can Ready to Fire");
         }
 
     }
