@@ -16,7 +16,7 @@ public class Enemy : LivingEntity {
     private Animator enemyAnimator; // 애니메이터 컴포넌트
     private AudioSource enemyAudioPlayer; // 오디오 소스 컴포넌트
     private Renderer enemyRenderer; // 렌더러 컴포넌트 => 좀비의 피부색 (좀비의 강함 정도)
-
+    오류투성이로올려버리기
     public float damage = 20f; // 공격력
     public float timeBetAttack = 0.5f; // 공격 간격
     private float lastAttackTime; // 마지막 공격 시점
