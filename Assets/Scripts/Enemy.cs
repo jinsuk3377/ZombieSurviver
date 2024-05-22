@@ -72,6 +72,8 @@ public class Enemy : LivingEntity {
         //네비게이션 기능을 시작 => UpdatePath에서 시작
         StartCoroutine(UpdatePath());
 
+
+        Debug.Log("- 괴도 김정우 등장 -");
     }
 
     private void Update() {
